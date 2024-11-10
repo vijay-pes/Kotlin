@@ -1,7 +1,7 @@
-package Inheritance
+package org.example.Basics.Inheritance
 
-import Inheritance.Child
-import Inheritance.Child as Child1
+import org.example.Basics.Inheritance.Child
+import org.example.Basics.Inheritance.Child as Child1
 
 fun main() {
     val parent = Parent()
@@ -23,7 +23,7 @@ open class Parent{
 //parent Contructors is called first -->child Constructor
 
 
-class Child :Parent()       //only one parent class
+class Child : Parent()       //only one parent class
 
 {
     val name2 :String =""
