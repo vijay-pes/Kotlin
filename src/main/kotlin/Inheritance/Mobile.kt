@@ -1,5 +1,6 @@
 package Inheritance
 
+//Over-riding Concept
 // Any -->Mobile -->Oneplus
 
 
@@ -22,7 +23,7 @@ open class Mobile(val type :String){
 }
 
 class OnePlus(typeParam: String) : Mobile(typeParam) {  //Parent constructor pass karna compulsory hai
-    override val name: String ="Oneplus Mobile"
+    override val name: String ="Oneplus Mobile"         // First typeparam  oneplus -->fir wai passed to Parent
 
     override fun Display() {
         super.Display()                               //Super Keyword -->kuch bhi call karna hai parent se (variable ,func..)
@@ -31,7 +32,7 @@ class OnePlus(typeParam: String) : Mobile(typeParam) {  //Parent constructor pas
     }
 
     override fun toString(): String {
-        return "$name and - $size"
+        return "$name and $size"
     }
 
 }

@@ -8,8 +8,7 @@ fun main() {
 
     // Jaha parentclass ka object chahiye waha -->object class ka pass kar sakthe hai
     // below :  Type - Shape required tha -->but we can give all it's child object(circle,...)
-    //Vice versa is not possible  Child object needed -->passed parent passed
-
+    //Vice versa is not possible  Child object needed -->passed parent
     val circle:Shape = Circle(4.0)
     val square:Shape = Square(4.0)
 
